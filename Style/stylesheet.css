@@ -1,0 +1,29 @@
+/*
+#ff71ce
+#01cdfe
+#05ffa1
+#b967ff
+#fffb96
+*/
+html {
+	background-color: #05ffa1;
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	height: 100%;
+}
+
+
+.header {
+	height: 70px;
+	background-color: #01cdfe;
+}
+
+.right {
+	float: right;
+	background-color: #b967ff;
+	width: 30%;
+	height: 100%;
+}
