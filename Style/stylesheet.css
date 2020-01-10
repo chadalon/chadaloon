@@ -37,6 +37,11 @@ li {
 #title {
 	margin: 0px;
 }
+#logo {
+	float: left;
+	margin: 5px;
+	height: 90px;
+}
 
 .right {
 	float: right;
@@ -72,4 +77,19 @@ a li:hover {
 	width: 100%;
 	height: 70px;
 	float: left;
+}
+
+@media (max-width: 450px) {
+
+	.right {
+		width: 0px;
+		float: left;
+	}
+	.right p {
+		content: none;
+	}
+
+	.left {
+		width: 100%;
+	}
 }
