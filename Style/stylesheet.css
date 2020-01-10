@@ -27,7 +27,7 @@ ul {
 
 li {
 	text-align: center;
-	transition-duration: .5s;
+	transition-duration: .2s;
 }
 
 
@@ -35,7 +35,8 @@ li {
 	height: 100px;
 }
 #title {
-	margin: 0px;
+	margin: 0 0 0 100px;
+	height: 100%;
 }
 #logo {
 	float: left;
@@ -49,14 +50,30 @@ li {
 	width: 30%;
 	height: 100%;
 }
-#bio {
-	margin: 5%;
-	text-align: center;
-}
-.rightems {
+.right ul {
 	padding: 0px;
+	display: table;
+	width: 100%;
+	margin: 0;
 }
-a li:hover {
+.right ul li {
+	display: table-cell;
+	height: 5rem;
+	width: 100%;
+	float: left;
+}
+.right ul li a {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.right ul li a p {
+	display: table-cell;
+	margin: 0;
+	height: 100%;
+	vertical-align: middle;
+}
+.right ul li:hover {
 	background-color: #cb8dff;
 }
 
@@ -65,6 +82,10 @@ a li:hover {
 	float: left;
 	height: 100%;
 	width: 70%;
+}
+#bio {
+	margin: 5%;
+	text-align: center;
 }
 
 #soundcloud {
