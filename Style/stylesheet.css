@@ -79,7 +79,9 @@ a li:hover {
 	float: left;
 }
 
-@media (max-width: 450px) {
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
 
 	.right {
 		width: 0px;
