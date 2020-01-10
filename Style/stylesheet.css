@@ -6,8 +6,9 @@
 #fffb96
 */
 html {
-	background-color: #05ffa1;
+	background-color: #01cdfe;
 	height: 100%;
+	font-family: arial;
 }
 
 body {
@@ -15,10 +16,26 @@ body {
 	height: 100%;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	text-align: center;
+	transition-duration: .5s;
+}
+
 
 .header {
-	height: 70px;
-	background-color: #01cdfe;
+	height: 100px;
+}
+#title {
+	margin: 0px;
 }
 
 .right {
@@ -27,9 +44,24 @@ body {
 	width: 30%;
 	height: 100%;
 }
+#bio {
+	margin: 5%;
+	text-align: center;
+}
+.rightems {
+	padding: 0px;
+}
+a li:hover {
+	background-color: #cb8dff;
+}
 
+.left {
+	background-color: #05ffa1;
+	float: left;
+	height: 100%;
+	width: 70%;
+}
 
-
-#title {
-	margin: 0px;
+#soundcloud {
+	padding: 10% 15% 0px 10%;
 }
