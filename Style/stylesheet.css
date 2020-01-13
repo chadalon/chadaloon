@@ -126,7 +126,7 @@ li {
 #soundcloud {
 	padding: 20px 15% 20px 15%;
 	opacity: 80%;
-	width: calc(70% - 200px);
+	/*width: calc(70% - 200px);*/
 }
 #realfooter {
 	position: fixed;
