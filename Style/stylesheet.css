@@ -192,6 +192,10 @@ and (max-device-width: 480px) {
 
 	}
 
+	#soundcloud {
+		width: 100%;
+	}
+
 	.right {
 		width: 0px;
 		float: left;
