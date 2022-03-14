@@ -118,6 +118,12 @@ li {
 	padding: 20px;
 	text-align: center;
 }
+.bmenus {
+	background-color: black;
+}
+.bmenus .titles {
+	color: white;
+}
 
 .left {
 	/*background-color: #05ffa1;*/
@@ -132,18 +138,12 @@ li {
 	margin: 0px;
 	padding: 20px 0px 20px 0px;
 }
-.wtitles {
-	color: white;
-}
 
 #mainimg {
 	display: block;
 	width: 100%;
 }
 
-#bio {
-	background-color: black;
-}
 #biowords {
 	margin: 0px;
 	text-align: center;
@@ -160,9 +160,6 @@ li {
 	border-radius: 3px;
 }
 
-#booking {
-	background-color: black;
-}
 #contact-info {
 	display: flex;
 }
