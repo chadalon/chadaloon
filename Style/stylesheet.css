@@ -162,6 +162,11 @@ li {
 
 #contact-info {
 	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#my-email {
+	font-size: 3em;
 }
 
 #soundcloud {
