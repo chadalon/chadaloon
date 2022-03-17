@@ -44,7 +44,7 @@ li {
 	width: 100%;/*calc(100% - 200px);*/
 	position: fixed;/*absolute;*/
 	font-family: 'Century Gothic';
-	src: url(Media/GOTHIC.TTF);
+	src: url('../Media/GOTHIC.TTF');
 }
 #topwords {
 	margin-left: 70px;
