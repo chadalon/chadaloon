@@ -144,7 +144,7 @@ li {
 	width: 100%;
 }
 
-#biowords {
+.biowords {
 	margin: 0px;
 	text-align: center;
 	opacity: 100%;
@@ -167,6 +167,21 @@ li {
 }
 #my-email {
 	font-size: 3em;
+}
+#emailsvg {
+	width: 400px;
+	height: 400px;
+}
+@media (max-width: 650px) {
+	#my-email {
+		font-size: 1.2em;
+		font-size: 7vw;
+	}
+	#emailsvg {
+		width: 70%;
+		height: 70%
+	}
+
 }
 
 #soundcloud {
