@@ -5,6 +5,10 @@
 #b967ff purple
 #fffb96 yellow
 */
+@font-face {
+	font-family: CenturyGothic;
+	src: url('../Media/GOTHIC.TTF');
+}
 html {
 	background-color: #01cdfe;
 	background-color: #585aff;
@@ -43,8 +47,7 @@ li {
 	display: flex;
 	width: 100%;/*calc(100% - 200px);*/
 	position: fixed;/*absolute;*/
-	font-family: 'Century Gothic';
-	src: url('../Media/GOTHIC.TTF');
+	font-family: CenturyGothic, Arial;
 }
 #topwords {
 	margin-left: 70px;
