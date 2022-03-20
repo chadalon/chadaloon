@@ -47,6 +47,7 @@ li {
 	display: flex;
 	width: 100%;/*calc(100% - 200px);*/
 	position: fixed;/*absolute;*/
+	z-index: 1;
 	font-family: CenturyGothic, Arial;
 }
 #topwords {
