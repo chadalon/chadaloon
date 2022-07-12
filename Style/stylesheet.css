@@ -122,6 +122,7 @@ li {
 .menus {
 	padding: 20px;
 	text-align: center;
+	background-color: white;
 }
 .bmenus {
 	background-color: black;
@@ -146,7 +147,14 @@ li {
 
 #mainimg {
 	display: block;
+	position: absolute;
+	z-index: -1;
+	margin-top: -45%;
 	width: 100%;
+}
+
+#topmenu {
+	margin-top: 53%;
 }
 
 .biowords {
