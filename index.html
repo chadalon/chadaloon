@@ -1,9 +1,16 @@
+<!-- Change padding so all sections look flush
+add <section>s 
+    make text look good - modify what it says too
+ main img not as big on wide screen
+booking at end lis
+ -->
 <!doctype html>
 <html>
 	<head>
 		<title>chadalon</title>
 		<!--gets device info ? -->
 		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+        <meta charset="UTF-8">
 
 		<!-- Font Awesome Icon Library -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,7 +28,9 @@
 			</a>
 		-->
 			<div id="topwords">
-				<p id="title">chadalon</p>
+                <a href="https://chadalon.com">
+				    <p id="title">chadalon</p>
+                </a>
 			</div>
 			<!--
 				toplinks is only here when there's a big screen
@@ -58,7 +67,7 @@
 	-->
 		<div class="left">
 			<!--<img id='mainimg' src="Images/profilepic.jpg" alt="me" />-->
-			<img id='mainimg' src="Images/medj.jpg" alt="me" />
+			<img id='mainimg' src="Images/Chad DJing.jpg" alt="me" />
 			<div class='menus bmenus' id='topmenu'>
 				<p class='titles wtitles'>Bio</p>
 				<div id='bio-container'>
@@ -66,7 +75,7 @@
 						<h1 class='basicp'>Welcome!</h1>
 						<br>
 						<p class='basicp' class="biowords">
-							chadalon (Chad Malmrose) is a party, wedding, and event dj who also produces music.<br>
+							chadalon (Chad Malmrose) is a party, wedding, and event dj and music producer.<br>
 							He's had a love for dance music his whole life, and loves sharing it with others.<br>
 							The sets he performs are focused on making people have a memorable experience!
 
@@ -75,7 +84,7 @@
 						<p class='basicp'>
 							House, bass house, drum and bass, future house, future bass, pop/dance, and electro house are the main genres he djs and produces.
 							<br><br>
-							Wedding gigs are of course catered to the tastes of the client!
+							Gigs are always catered to the tastes of the client!
 						</p>
 					</div>
 				</div>
@@ -84,14 +93,22 @@
 			<div class='menus' id='equipment'>
 				<p class='titles'>Equipment</p>
 				<div>
-					<p>I have a pair of QSC k12.2s</p>
+					<p>
+                        Two QSC k12.2 loudspeakers guarantee high quality with high volume every time!
+                        <br>
+                        
+                    </p>
 				</div>
 			</div>
 
 			<div class='menus bmenus'>
 				<p class='titles'>Music</p>
-				<div id="soundcloud">
+                <div id="spotify" class="music-disp">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6CrFQkPnCeFVVBxO5TsNGK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+				<div id="soundcloud" class="music-disp">
 					<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/470050875&color=%235a5855&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/937435651&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chadalon" title="Chadalon" target="_blank" style="color: #cccccc; text-decoration: none;">Chadalon</a> · <a href="https://soundcloud.com/chadalon/pothead-remix" title="thomboi - pothead (Chadalon Remix)" target="_blank" style="color: #cccccc; text-decoration: none;">thomboi - pothead (Chadalon Remix)</a></div>
 
 					<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303449125&color=%2372bdd0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 				</div>

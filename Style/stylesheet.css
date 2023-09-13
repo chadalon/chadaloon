@@ -149,7 +149,7 @@ li {
 	display: block;
 	position: absolute;
 	z-index: -1;
-	margin-top: -45%;
+	/* margin-top: -45%; */
 	width: 100%;
 }
 
@@ -198,9 +198,12 @@ li {
 }
 
 #soundcloud {
-	padding: 20px 15% 20px 15%;
 	opacity: 80%;
 	/*width: calc(70% - 200px);*/
+}
+.music-disp {
+	padding: 20px 15% 20px 15%;
+
 }
 #realfooter {
 	position: fixed;
