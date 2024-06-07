@@ -67,14 +67,19 @@ li {
 }
 
 .menus {
-  padding: 20px;
+  padding: 30px 15%;
   text-align: center;
   background-color: var(--light);
 }
+/*
+.menus > p,
+.menus > div {
+  width: 70%;
+}*/
 .bmenus {
   background-color: var(--dark);
 }
-.bmenus .titles {
+.bmenus p {
   color: var(--light);
 }
 
@@ -136,9 +141,10 @@ li {
   opacity: 80%;
   /*width: calc(70% - 200px);*/
 }
+/*
 .music-disp {
   padding: 20px 15% 20px 15%;
-}
+}*/
 #realfooter {
   position: fixed;
   bottom: 0;

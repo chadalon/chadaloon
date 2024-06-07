@@ -6,121 +6,272 @@ booking at end lis
 img not showing deck
 soundcloud tags - names not showing on some tags
  -->
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>chadalon</title>
-		<!--gets device info ? -->
-		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
-        <meta charset="UTF-8">
+  <head>
+    <title>chadalon</title>
+    <!--gets device info ? -->
+    <meta
+      name="viewport"
+      content="width=device-width,height=device-height,initial-scale=1.0"
+    />
+    <meta charset="UTF-8" />
 
-		<!-- Font Awesome Icon Library -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome Icon Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-		<link rel="stylesheet" type="text/css" href="Style/stylesheet.css">
-		<link rel="shortcut icon" href="Images/musiclogo.png"/>
-	</head>
+    <link rel="stylesheet" type="text/css" href="Style/stylesheet.css" />
+    <link rel="shortcut icon" href="Images/musiclogo.png" />
+  </head>
 
-	<body>
-
-		<div class="header">
-			<div id="topwords">
-                <a href="https://chadalon.com">
-				    <p id="title">chadalon</p>
-                </a>
-			</div>
-			<!--
+  <body>
+    <div class="header">
+      <div id="topwords">
+        <a href="https://chadalon.com">
+          <p id="title">chadalon</p>
+        </a>
+      </div>
+      <!--
 				toplinks is only here when there's a big screen
 			-->
-			<div id='toplinks'>
-				
-			</div>
-		
+      <div id="toplinks"></div>
+    </div>
 
-		</div>
+    <div class="left">
+      <img id="mainimg" src="Images/Chad DJing.jpg" alt="Dance party" />
+      <div id="spacer"></div>
+      <div class="menus bmenus" id="topmenu">
+        <p class="titles">Welcome!</p>
+        <div>
+          <p>
+            chadalon (Chad Malmrose) is a party, wedding, and event dj and music
+            producer.<br />
+            He's had a love for dance music his whole life, and loves sharing it
+            with others.<br />
+            The sets he performs are focused on making people have a memorable
+            experience!
+          </p>
+        </div>
+        <!--
+        <div id="bio-container">
+          <div id="bio-text-div">
+            <h1 class="basicp">Welcome!</h1>
+            <br />
+            <p class="basicp" class="biowords">
+              chadalon (Chad Malmrose) is a party, wedding, and event dj and
+              music producer.<br />
+              He's had a love for dance music his whole life, and loves sharing
+              it with others.<br />
+              The sets he performs are focused on making people have a memorable
+              experience!
+            </p>
+            <h1>Genres</h1>
+            <p class="basicp">
+              House, bass house, drum and bass, future house, future bass,
+              pop/dance, and electro house are the main genres he djs and
+              produces.
+              <br /><br />
+              Gigs are always catered to the tastes of the client!
+            </p>
+          </div>
+        </div>-->
+      </div>
 
-		<div class="left">
-			<img id='mainimg' src="Images/Chad DJing.jpg" alt="Dance party" />
-            <div id="spacer"></div>
-			<div class='menus bmenus' id='topmenu'>
-				<p class='titles wtitles'>Bio</p>
-				<div id='bio-container'>
-					<div id='bio-text-div'>
-						<h1 class='basicp'>Welcome!</h1>
-						<br>
-						<p class='basicp' class="biowords">
-							chadalon (Chad Malmrose) is a party, wedding, and event dj and music producer.<br>
-							He's had a love for dance music his whole life, and loves sharing it with others.<br>
-							The sets he performs are focused on making people have a memorable experience!
+      <div class="menus" id="equipment">
+        <p class="titles">Equipment</p>
+        <div>
+          <p>
+            Two QSC k12.2 loudspeakers guarantee high quality with high volume
+            every time!
+            <br />
+          </p>
+        </div>
+      </div>
 
-						</p>
-						<h1>Genres</h1>
-						<p class='basicp'>
-							House, bass house, drum and bass, future house, future bass, pop/dance, and electro house are the main genres he djs and produces.
-							<br><br>
-							Gigs are always catered to the tastes of the client!
-						</p>
-					</div>
-				</div>
-			</div>
+      <div class="menus bmenus">
+        <p class="titles">Music</p>
+        <div id="spotify" class="music-disp">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/6CrFQkPnCeFVVBxO5TsNGK?utm_source=generator"
+            width="100%"
+            height="352"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/1HHeKi4LtvTNGXH6J2teo8?utm_source=generator"
+            width="100%"
+            height="352"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div id="soundcloud" class="music-disp">
+          <iframe
+            width="100%"
+            height="166"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/470050875&color=%235a5855&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="166"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/937435651&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          ></iframe>
+          <div
+            style="
+              font-size: 10px;
+              color: #cccccc;
+              line-break: anywhere;
+              word-break: normal;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+              font-weight: 100;
+            "
+          >
+            <a
+              href="https://soundcloud.com/chadalon"
+              title="Chadalon"
+              target="_blank"
+              style="color: #cccccc; text-decoration: none"
+              >Chadalon</a
+            >
+            ·
+            <a
+              href="https://soundcloud.com/chadalon/pothead-remix"
+              title="thomboi - pothead (Chadalon Remix)"
+              target="_blank"
+              style="color: #cccccc; text-decoration: none"
+              >thomboi - pothead (Chadalon Remix)</a
+            >
+          </div>
 
-			<div class='menus' id='equipment'>
-				<p class='titles'>Equipment</p>
-				<div>
-					<p>
-                        Two QSC k12.2 loudspeakers guarantee high quality with high volume every time!
-                        <br>
-                        
-                    </p>
-				</div>
-			</div>
+          <iframe
+            width="100%"
+            height="166"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303449125&color=%2372bdd0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          ></iframe>
+        </div>
+      </div>
 
-			<div class='menus bmenus'>
-				<p class='titles'>Music</p>
-                <div id="spotify" class="music-disp">
-                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6CrFQkPnCeFVVBxO5TsNGK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1HHeKi4LtvTNGXH6J2teo8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-				<div id="soundcloud" class="music-disp">
-					<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/470050875&color=%235a5855&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/937435651&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chadalon" title="Chadalon" target="_blank" style="color: #cccccc; text-decoration: none;">Chadalon</a> · <a href="https://soundcloud.com/chadalon/pothead-remix" title="thomboi - pothead (Chadalon Remix)" target="_blank" style="color: #cccccc; text-decoration: none;">thomboi - pothead (Chadalon Remix)</a></div>
+      <div class="menus">
+        <p class="titles">Booking/Contact Me</p>
+        <div id="contact-info">
+          <div id="email-info">
+            <svg
+              id="emailsvg"
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1025 1025"
+            >
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #231f20;
+                  }
+                  .cls-1,
+                  .cls-2,
+                  .cls-3 {
+                    stroke: #231f20;
+                    stroke-miterlimit: 10;
+                  }
+                  .cls-2 {
+                    fill: #dadada;
+                  }
+                  .cls-3 {
+                    fill: none;
+                    stroke-width: 26px;
+                  }
+                </style>
+              </defs>
+              <circle class="cls-1" cx="512.5" cy="512.5" r="512" />
+              <circle class="cls-2" cx="512.5" cy="512.5" r="475.96" />
+              <path
+                class="cls-3"
+                d="M846.66,721.94a.11.11,0,0,1-.1.1H178.49a.15.15,0,0,1-.15-.15V303.26a.15.15,0,0,1,.24-.12l281.48,210L512.5,552.3l52.44-39.13L846.47,303.1a.1.1,0,0,1,.16.08Z"
+              />
+              <line
+                class="cls-3"
+                x1="460.06"
+                y1="513.17"
+                x2="178.34"
+                y2="722.04"
+              />
+              <line
+                class="cls-3"
+                x1="846.66"
+                y1="722.04"
+                x2="564.94"
+                y2="513.17"
+              />
+              <path
+                class="cls-3"
+                d="M178.6,303.54l334,248.79L846.4,303.26a.1.1,0,0,0-.06-.18l-667.68.28A.1.1,0,0,0,178.6,303.54Z"
+              />
+            </svg>
+            <p class="basicp" id="my-email">chadalonmusic@gmail.com</p>
+            <p>Please send me an email with the following info:</p>
+            <ul>
+              <li>Type of event</li>
+              <li>Expected turnout</li>
+              <li>How long you need a dj</li>
+              <li>Anything else</li>
+            </ul>
+            <p>and I'll get back to you with a quote!</p>
+          </div>
+        </div>
+      </div>
 
-					<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303449125&color=%2372bdd0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-				</div>
-			</div>
+      <div id="footerbuffer"></div>
+      <div id="realfooter"></div>
 
-			<div class='menus'>
-				<p class='titles'>Booking/Contact Me</p>
-				<div id='contact-info'>
-					<div id='email-info'>
-							<svg id="emailsvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1025 1025"><defs><style>.cls-1{fill:#231f20;}.cls-1,.cls-2,.cls-3{stroke:#231f20;stroke-miterlimit:10;}.cls-2{fill:#fff;}.cls-3{fill:none;stroke-width:26px;}</style></defs><circle class="cls-1" cx="512.5" cy="512.5" r="512"/><circle class="cls-2" cx="512.5" cy="512.5" r="475.96"/><path class="cls-3" d="M846.66,721.94a.11.11,0,0,1-.1.1H178.49a.15.15,0,0,1-.15-.15V303.26a.15.15,0,0,1,.24-.12l281.48,210L512.5,552.3l52.44-39.13L846.47,303.1a.1.1,0,0,1,.16.08Z"/><line class="cls-3" x1="460.06" y1="513.17" x2="178.34" y2="722.04"/><line class="cls-3" x1="846.66" y1="722.04" x2="564.94" y2="513.17"/><path class="cls-3" d="M178.6,303.54l334,248.79L846.4,303.26a.1.1,0,0,0-.06-.18l-667.68.28A.1.1,0,0,0,178.6,303.54Z"/></svg>
-						<p class='basicp' id='my-email'>chadalonmusic@gmail.com</p>
-						<p>Please send me an email with the following info:</p>
-						<ul>
-							<li>Type of event</li>
-							<li>Expected turnout</li>
-							<li>How long you need a dj</li>
-							<li>Anything else</li>
-						</ul>
-						<p>and I'll get back to you with a quote!</p>
-					</div>
-				</div>
-			</div>
-
-			<div id='footerbuffer'></div>
-			<div id="realfooter">
-			</div>
-
-			<div class="bottom">
-				<a href="https://www.facebook.com/chadalonmusic/" class="fa fa-facebook"></a>
-				<a href="https://www.twitter.com/chadalonmusic" class="fa fa-twitter"></a>
-				<a href="https://www.instagram.com/chadalon.music" class="fa fa-instagram"></a>
-				<a href="https://open.spotify.com/artist/3G5XNXUWTLvLO1bboIRWd9?si=TMXK4ZjhS5KsHTuDDamxTA" class="fa fa-spotify"></a>
-				<a href="https://www.soundcloud.com/chadalon" class="fa fa-soundcloud"></a>
-				<a href="https://www.youtube.com/channel/UCabyZKH2aprs0Ae0n_8zBOg" class="fa fa-youtube-play"></a>
-				<a href="https://chadalon.bandcamp.com/" class="fa fa-bandcamp"></a>
-			</div>
-
-		</div>
-	</body>
+      <div class="bottom">
+        <a
+          href="https://www.facebook.com/chadalonmusic/"
+          class="fa fa-facebook"
+        ></a>
+        <a
+          href="https://www.twitter.com/chadalonmusic"
+          class="fa fa-twitter"
+        ></a>
+        <a
+          href="https://www.instagram.com/chadalon.music"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://open.spotify.com/artist/3G5XNXUWTLvLO1bboIRWd9?si=TMXK4ZjhS5KsHTuDDamxTA"
+          class="fa fa-spotify"
+        ></a>
+        <a
+          href="https://www.soundcloud.com/chadalon"
+          class="fa fa-soundcloud"
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UCabyZKH2aprs0Ae0n_8zBOg"
+          class="fa fa-youtube-play"
+        ></a>
+        <a href="https://chadalon.bandcamp.com/" class="fa fa-bandcamp"></a>
+      </div>
+    </div>
+  </body>
 </html>
